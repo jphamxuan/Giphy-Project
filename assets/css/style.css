@@ -3,4 +3,18 @@ div,
 form,
 input {
   margin: 10px;
+  color: white;
+}
+
+body {
+  background-image: url("../images/blown.gif");
+  
+}
+
+h1{
+  color: white;
+}
+
+.gif{
+  color: black;
 }

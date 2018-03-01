@@ -58,14 +58,14 @@ function displayGifs() {
       gifImage.attr("src", results[i].images.fixed_height_small_still.url); 
       gifImage.attr("data-still",results[i].images.fixed_height_small_still.url); 
       gifImage.attr("data-animate",results[i].images.fixed_height_small.url);      
-      gifImage.attr("data-state", "still"); 
+      gifImage.attr("data-state", "animate"); 
       gifImage.addClass("image");
       gifDiv.append(gifImage);
               
       $(".gif-display").prepend(gifDiv);
           }
 
-          $(".gifDiv").on("click", function(){
+          $(".image").on("click", function(){
             var state = $(this).attr("data-state")
             console.log(state)
             if(state === "still"){
