@@ -8,6 +8,8 @@ input {
 
 body {
   background-image: url("../images/blown.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
